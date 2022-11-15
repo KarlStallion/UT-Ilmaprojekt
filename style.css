@@ -1,1 +1,378 @@
+*{
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
 
+}
+html {
+    line-height: 1.15;
+    font-family: Inter;
+    font-size: 16px
+}
+body {
+    margin:0
+}
+div, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0
+}
+input {
+    padding: 2px 4px
+}
+img{
+    display: block
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::placeholder{
+    color: #fff;
+    opacity: 1
+}
+.button{
+    color: #000;
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.input{
+    color: #000;
+    cursor: auto;
+    padding: .5rem 1rem;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.kodu-kaaart{
+    width:100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252525;
+
+}
+.kodu-kaart01{
+    width: 1266px;
+    height: 54px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+.kodu-textinput{
+    color: #fff;
+    width: 1020px;
+    height: 44px;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,.25);
+    border-width: 0;
+    padding-left: 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #fc7251;
+}
+.kodu-nupp{
+    color:#fff;
+    width:265px;
+    height:46px;
+    font-size:25px;
+    box-shadow:rgba(0,0,0,.25) 10px 10px 5px 5px;
+    font-style:normal;
+    text-align:center;
+    transition:.3s;
+    font-weight:500;
+    border-width:0;
+    border-radius:50px;
+    text-transform:uppercase;
+    background-color:#272727
+}
+.kodu-nupp:hover{
+    background-color:#505050
+}
+.kodu-kaart02{
+    width:1280px;
+    height:550px;
+    display:flex;
+    z-index:1;
+    position:relative;
+    align-self:center;
+    box-shadow:10px 10px 5px 5px rgba(0,0,0,.25);
+    align-items:center;
+    padding-top:30px;
+    padding-left:55px;
+    border-radius:50px;
+    padding-right:55px;
+    padding-bottom:30px;
+    justify-content:flex-start;
+    background-color:#272727
+}
+.kodu-kaart03{
+    flex:0 0 auto;
+    width:35%;
+    height:488px;
+    display:flex;
+    z-index:4;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center
+}
+.kodu-image{
+    width:70px;
+    height:70px;
+    object-fit:cover
+}
+.kodu-kaart04{
+    width:395px;
+    height:auto;
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+.kodu-text{
+    color:#fff;
+    width:100%;
+    font-size:30px;
+    font-style:normal;
+    text-align:center;
+    font-weight:500;
+    padding-bottom:5px
+}
+.kodu-text01{
+    color:rgba(255,255,255,.79);
+    width:100%;
+    font-size:20px;
+    font-style:normal;
+    text-align:center;
+    font-weight:400;
+    padding-bottom:0
+}
+.kodu-image1{
+    width:70px;
+    height:70px;
+    object-fit:cover
+}
+.kodu-kaart05{
+    width:395px;
+    height:auto;
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+.kodu-text02{
+    color:#fff;
+    width:100%;
+    font-size:30px;
+    font-style:normal;
+    text-align:center;
+    font-weight:500;
+    padding-bottom:5px
+}
+.kodu-text03{
+    color:rgba(255,255,255,.79);
+    width:100%;
+    font-size:20px;
+    font-style:normal;
+    text-align:center;
+    font-weight:400;
+    padding-bottom:0
+}
+.kodu-image2{
+    width:70px;
+    height:70px;
+    object-fit:cover
+}
+.kodu-kaart06{
+    width:395px;
+    height:auto;
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+.kodu-text04{
+    color:#fff;
+    width:100%;
+    font-size:30px;
+    font-style:normal;
+    text-align:center;
+    font-weight:500;
+    padding-bottom:5px
+}
+.kodu-text05{
+    color:rgba(255,255,255,.79);
+    width:100%;
+    font-size:20px;
+    font-style:normal;
+    text-align:center;
+    font-weight:400;
+    padding-bottom:0
+}
+.kodu-image3{
+    width:100%;
+    align-self:flex-start;
+    object-fit:cover
+}
+.kodu-kaart07{
+    flex:0 0 auto;
+    width:175px;
+    height:206px;
+    display:flex;
+    z-index:4;
+    align-self:flex-end;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center
+}
+.kodu-image4{
+    width:96px;
+    object-fit:cover
+}
+.kodu-text06{
+    color:#fff;
+    font-size:25px;
+    font-style:normal;
+    font-weight:500;
+    padding-top:10px;
+    padding-bottom:5px
+}
+.kodu-text07{
+    color:rgba(255,255,255,.7);
+    font-size:20px
+}
+.kodu-kaart08{
+    flex:0 0 auto;
+    width:175px;
+    height:206px;
+    display:flex;
+    z-index:4;
+    align-self:flex-end;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center
+}
+.kodu-image5{
+    width:96px;
+    object-fit:cover
+}
+.kodu-text08{
+    color:#fff;
+    font-size:25px;
+    font-style:normal;
+    font-weight:500;
+    padding-top:10px;
+    padding-bottom:5px
+}
+.kodu-text09{
+    color:rgba(255,255,255,.7);
+    font-size:20px
+}
+.kodu-kaart09{
+    top:28px;
+    flex:0 0 auto;
+    right:37px;
+    width:152px;
+    height:206px;
+    display:flex;
+    z-index:4;
+    position:absolute;
+    align-self:flex-end;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:center
+}
+.kodu-text10{
+    color:#fff;
+    font-size:30px;
+    font-style:normal;
+    font-weight:600;
+    padding-bottom:10px
+}
+.kodu-text11{
+    font-size:30px
+}
+.kodu-text13{
+    color:#fff;
+    font-size:30px;
+    font-style:normal;
+    font-weight:600;
+    padding-top:10px
+}
+.kodu-text14{
+    font-size:30px
+}
+.kodu-peainfo{
+    top:0;
+    left:267px;
+    width:1013px;
+    height:318px;
+    display:flex;
+    position:absolute;
+    align-items:center;
+    justify-content:flex-start
+}
+.kodu-kaart10{
+    top:22px;
+    flex:0 0 auto;
+    right:221px;
+    width:251px;
+    height:205px;
+    display:flex;
+    z-index:4;
+    position:absolute;
+    align-self:flex-start;
+    align-items:center;
+    flex-direction:column;
+    justify-content:flex-start
+}
+.kodu-text16{
+    color:#fff;
+    height:141px;
+    font-size:150px;
+    align-self:flex-start
+}
+.kodu-text17{
+    color:#fff;
+    font-size:30px;
+    padding-top:20px
+}
+.kodu-kaart11{
+    top:32px;
+    flex:0 0 auto;
+    left:113px;
+    width:414px;
+    height:98px;
+    margin:auto;
+    display:flex;
+    z-index:4;
+    position:absolute;
+    align-self:flex-end;
+    align-items:center;
+    justify-content:center
+}
+.kodu-text18{
+    color:#fff;
+    width:411px;
+    text-align:center;
+    letter-spacing:10px
+}
+.kodu-text19{
+    font-size:70px;
+    text-transform:uppercase
+}
+.kodu-image6{
+    top:0;
+    left:0;
+    width:1013px;
+    height:318px;
+    z-index:2;
+    position:absolute;
+    object-fit:cover
+}
