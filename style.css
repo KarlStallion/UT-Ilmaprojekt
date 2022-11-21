@@ -376,3 +376,43 @@ html{
     position:absolute;
     object-fit:cover
 }
+.kodu-ilmaikoon{
+    flex: 0 0 auto;
+    width: 30%;
+    height: 398px;
+    display: flex;
+    z-index: 4;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.kodu-tundub {
+    flex: 0 0 auto;
+    width: 244px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+    }
+.kodu-niiskus {
+    flex: 0 0 auto;
+    width: 244px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+    }
+.kodu-rohk {
+    flex: 0 0 auto;
+    width: 244px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 2px;
+    flex-direction: row;
+    justify-content: center;
+    }
