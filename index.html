@@ -1,110 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Ilm</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+
+  </head>
+  <body>
     <div>
-        <div class="kodu-kaart">
-            <div class="kodu-kaart01">
-                <input type="text" placeholder="Otsi linna järgi..." class="kodu-textinput input sisendValue" id="linn_sisend">
-                <button class="kodu-nupp button"
-                id="nupp">OTSI</button>
+
+      <div class="kodu-kaart">
+        <div class="kodu-kaart01">
+          <input
+            type="text"
+            placeholder="Otsi linna järgi..."
+            class="kodu-textinput input sisendValue"
+            id="linn_sisend"
+          />
+          <button class="kodu-nupp button" id="nupp">OTSI</button>
+        </div>
+        <div class="kodu-kaart02">
+          <div class="kodu-kaart03">
+            <div class="kodu-tundub">
+              <img
+                src="tunne-200h.png"
+                alt="image"
+                class="kodu-image"
+              />
+              <div class="kodu-kaart04">
+                <span class="kodu-text tunne">123</span>
+                <span class="kodu-text01">Tundub nagu</span>
+              </div>
             </div>
-            <div class="kodu-kaart02">
-                <div class="kodu-kaart03">
-                    <div class="kodu-tundub">
-                        <img
-                          src="tunne-200h.png"
-                          alt="image"
-                          class="kodu-image"
-                        />
-                        <div class="kodu-kaart04">
-                          <span class="kodu-text">123</span>
-                          <span class="kodu-text01">Tundub nagu</span>
-                        </div>
-                    </div>
-                    
-                    <div class="kodu-niiskus">
-                        <img
-                          src="niiskus-200h.png"
-                          alt="image"
-                          class="kodu-image1"
-                        />
-                        <div class="kodu-kaart05">
-                          <span class="kodu-text02">123</span>
-                          <span class="kodu-text03">Tuul</span>
-                        </div>
-                    </div>
-                    <div class="kodu-rohk">
-                        <img
-                          src="rohk-200h.png"
-                          alt="image"
-                          class="kodu-image2"
-                        />
-                        <div class="kodu-kaart06">
-                            <span class="kodu-text04">123</span>
-                            <span class="kodu-text05">Õhurõhk</span>
-                          </div>
-                    </div>
-                </div>
-                <div class="kodu-ilmaikoon">
-                    <img
-                        alt="image"
-                        src="cloudy-day-400h.png"
-                        class="kodu-image3"
-                        id="peaikoon"
-                    />
-                </div>
-                <div class="kodu-kaart07">
-                    <img
-                      src="paike-tous-300h.png"
-                      alt="image"
-                      class="kodu-image4"
-                    />
-                    <span class="kodu-text06 tous">12:34</span>
-                    <span class="kodu-text07">Päikesetõus</span>
-                </div>
-                <div class="kodu-kaart08">
-                    <img
-                      src="paike-loojang-300h.png"
-                      alt="image"
-                      class="kodu-image5"
-                    />
-                    <span class="kodu-text08 loojang">12:34</span>
-                    <span class="kodu-text09">Päikeseloojang</span>
-                </div>
-                <div class="kodu-peainfo">
-                    <img
-                     alt="image" 
-                     src="component2%201-400h.png" 
-                     class="kodu-image6"
-                     /> 
-                    <div class="kodu-kaart09">
-                        <span class="kodu-text10">
-                        <span class="kodu-text11">Max: 34</span>
-                        </span>
-                        <span class="kodu-text13">
-                        <span class="kodu-text14">Min: 12</span>
-                        </span>
-                    </div>
-                    <div class="kodu-kaart10">
-                        <h1 class="kodu-text16">23<span class="kodu-text16">°</span></h1>
-                        <span class="kodu-text17">Tugev Sadu</span>
-                    </div>
-                    <div class="kodu-kaart11">
-                        <h1 class="kodu-text18">
-                        <span class="kodu-text19">Tallinn</span>
-                        </h1>
-                    </div>
-                </div>
-            </div>     
-        </div>   
-        
+            <div class="kodu-niiskus">
+              <img
+                src="niiskus-200h.png"
+                alt="image"
+                class="kodu-image1"
+              />
+              <div class="kodu-kaart05">
+                <span class="kodu-text02 tuul">123</span>
+                <span class="kodu-text03">Tuul</span>
+              </div>
+            </div>
+            <div class="kodu-rohk">
+              <img
+                src="rohk-200h.png"
+                alt="image"
+                class="kodu-image2"
+              />
+              <div class="kodu-kaart06">
+                <span class="kodu-text04 rohk">123</span>
+                <span class="kodu-text05">Õhurõhk</span>
+              </div>
+            </div>
+          </div>
+          <div class="kodu-ilmaikoon">
+            <img
+              alt="image"
+              src="cloudy-day-400h.png"
+              class="kodu-image3"
+              id="peaikoon"
+            />
+          </div>
+          <div class="kodu-kaart07">
+            <img
+              src="paike-tous-300h.png"
+              alt="image"
+              class="kodu-image4"
+            />
+            <span class="kodu-text06 tous">14:40</span>
+            <span class="kodu-text07">Paikesetõus</span>
+          </div>
+          <div class="kodu-kaart08">
+            <img
+              src="paike-loojang-300h.png"
+              alt="image"
+              class="kodu-image5"
+            />
+            <span class="kodu-text08 loojang">14:40</span>
+            <span class="kodu-text09">Päikeseloojang</span>
+          </div>
+          <div class="kodu-kaart09">
+            <span class="kodu-text10">
+              <span class="kodu-text11">Max: 14</span>
+            </span>
+            <span class="kodu-text13">
+              <span class="kodu-text14">Min: 14</span>
+            </span>
+          </div>
+          <div class="kodu-peainfo">
+            <div class="kodu-kaart10">
+              <h1 class="kodu-text16 temperatuur">24<span class="kodu-text16">°</span></h1>
+              <span class="kodu-text17">Tugev Sadu</span>
+            </div>
+            <div class="kodu-kaart11">
+              <h1 class="kodu-text18">
+                <span class="kodu-text19 linn">Tallinn</span>
+                <br />
+              </h1>
+            </div>
+            <img
+              alt="image"
+              src="component2%201-400h.png"
+              class="kodu-image6"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script src="app.js"></script>
+  </body>
 </html>
