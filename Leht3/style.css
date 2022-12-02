@@ -2,11 +2,62 @@ body {
     background-color: #252525;
   }
   h1 {
-    color: white;
+    color:  #ffffff;
   }
   h3 {
-    color: white;
+    color:  #252525;
   }
   p {
-    color: white;
+    color: #252525;
+  }
+.kodu-kaart {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #252525;
+  }
+.kodu-kaart01 {
+  width: 1100px;
+  height: 400px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-self: center;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 55px;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  justify-content: flex-start;
+  background-color:  #fc7251;
+  }
+.kodu-kaart02 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    z-index: 4;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+.kodu-kaart03 {
+    flex: 0 0 auto;
+    width: 30%;
+    height: 350px;
+    padding-left: 40px;
+    display: flex;
+    z-index: 4;
+    align-self: flex-end;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
