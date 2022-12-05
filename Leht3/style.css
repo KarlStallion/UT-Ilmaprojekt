@@ -3,15 +3,19 @@ body {
   }
   h1 {
     color:  #ffffff;
+    font-family: Inter;
     
   }
   h3 {
     color:  #ffffff;
     text-align: center;
+    font-family: Inter
   }
   p {
     color: #c5c3c3;
     margin-top: 0px;
+    font-family: Inter;
+    font-size: 14px;
     
   }
 .kodu-kaart {
@@ -67,7 +71,7 @@ body {
   }
 .kodu-kaart04 {
     width: 300px;
-    height: 150px;
+    height: 140px;
     display: flex;
     z-index: 1;
     position: relative;
@@ -84,7 +88,7 @@ body {
 
 .kodu-kaart05 {
   width: 300px;
-  height: 150px;
+  height: 190px;
   display: flex;
   z-index: 1;
   position: relative;
@@ -113,13 +117,13 @@ body {
   padding-right: 20px;
   padding-bottom: 60px;
   margin-left: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 35px;
   flex-direction: column;
   background-color:  #252525;
   }
 .kodu-kaart07 {
   width: 320px;
-  height: 170px;
+  height: 120px;
   display: flex;
   z-index: 1;
   position: relative;
