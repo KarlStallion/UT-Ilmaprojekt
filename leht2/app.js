@@ -4,7 +4,7 @@ function minJatund(p1){
     var hour1 = d.getHours();
     var minute1 = d.getMinutes();
 
-    return hour1+':'+minute1;
+    return hour1+':'+minute1+'0';
 }
 
 //Deklareerin erinevate logode asukoha(source'i)
@@ -74,13 +74,10 @@ nupp.addEventListener('click',function(){
 // Lisame funktsionaalsuse, et enterit vajutades saame ka otsingu luua
 var input = document.getElementById("linn_sisend");
 
-// Execute a function when the user presses a key on the keyboard
+// Script blogist Geeks4Geeks
 input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
   if (event.key === "Enter") {
-    // Cancel the default action, if needed
     event.preventDefault();
-    // Trigger the button element with a click
     document.getElementById("nupp").click();
   }
 });
