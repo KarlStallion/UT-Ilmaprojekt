@@ -1,3 +1,4 @@
+//Funktsioon, et json-i timestampidega tegeleda
 function minJatund(p1){
     const d = new Date(p1*1000);
     var hour1 = d.getHours();
@@ -6,6 +7,7 @@ function minJatund(p1){
     return hour1+':'+minute1;
 }
 
+//Deklareerin erinevate logode asukoha(source'i)
 var dict = { 
   "Clouds" : 'logod/few_clouds.png' , 
   "Clear" : 'logod/clear.png' ,
@@ -16,6 +18,7 @@ var dict = {
   "Thunderstorm" : 'logod/thunderstorm.png',
 }; 
 
+// Deklareerime erinevad muutujad html dokumendis
 var nupp = document.querySelector('.kodu-nupp')
 var sisendValue = document.querySelector('.sisendValue')
 
@@ -31,6 +34,7 @@ var loojang = document.querySelector('.loojang')
 var maks = document.querySelector('.kodu-text11')
 var mini = document.querySelector('.kodu-text14')
 
+// Fetchime ilma api-t kui toimub nupuvajutus
 nupp.addEventListener('click',function(){
     fetch('https://api.openweathermap.org/data/2.5/weather?q='+sisendValue.value+'&units=metric&appid=29716e7c7eb08f50d29ff5b0b9df994d')
         .then(response => response.json())
@@ -50,7 +54,7 @@ nupp.addEventListener('click',function(){
             var maksValue = data['main']['temp_max'];
             var minValue = data['main']['temp_min'];
             
-
+            // Hakkame html elemente muutma vastavalt json-ist loetud väärtustele
             linn.innerHTML = linnValue;
             temp.innerHTML = Math.round(tempValue)+'°';
             tuul.innerHTML = tuulValue+' m/s';
